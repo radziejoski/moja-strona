@@ -1,0 +1,20 @@
+languageCode = "pt-br"
+languageName = "Português (Brasil)"
+weight = 6
+title = "Blowfish"
+
+[params]
+  displayName = "Português (Brasil)"
+  isoCode = "pt-br"
+  rtl = false
+  dateFormat = "2 de January de 2006"
+  logo = ""
+  disableTextInHeader = true
+  description = ""
+
+[params.author]
+  name = "Blowfish"
+  image = "img/blowfish_logo.png"
+  headline = ""
+  bio = ""
+  links = []

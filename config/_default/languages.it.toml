@@ -1,0 +1,20 @@
+languageCode = "it"
+languageName = "Italiano"
+weight = 4
+title = "Blowfish"
+
+[params]
+  displayName = "Italiano"
+  isoCode = "it"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = ""
+  disableTextInHeader = true
+  description = ""
+
+[params.author]
+  name = "Blowfish"
+  image = "img/blowfish_logo.png"
+  headline = ""
+  bio = ""
+  links = []

@@ -1,0 +1,31 @@
+# Main menu simplified to 4 items (updated)
+
+[[main]]
+  name = "Strona główna"
+  url = "/"
+  weight = 10
+
+[[main]]
+  name = "Oferta"
+  url = "/oferta/"
+  weight = 20
+
+[[main]]
+  name = "Realizacje"
+  url = "/realizacje/"
+  weight = 30
+
+[[main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 40
+
+ [[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 10
+
+ [[footer]]
+   name = "Authors"
+   pageRef = "authors"
+   weight = 20

@@ -1,0 +1,21 @@
+languageCode = "ja"
+languageName = "日本語"
+weight = 8
+title = "Blowfish"
+
+[params]
+  displayName = "日本語"
+  isoCode = "ja"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = ""
+  disableTextInHeader = true
+  description = ""
+
+[params.author]
+  name = "Blowfish"
+  email = "nuno@n9o.xyz"
+  image = "img/blowfish_logo.png"
+  headline = ""
+  bio = ""
+  links = []

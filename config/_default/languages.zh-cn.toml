@@ -1,0 +1,20 @@
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 9
+title = "Blowfish"
+
+[params]
+  displayName = "简体中文"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = ""
+  disableTextInHeader = true
+  description = ""
+
+[params.author]
+  name = "Blowfish"
+  image = "img/blowfish_logo.png"
+  headline = ""
+  bio = ""
+  links = []
