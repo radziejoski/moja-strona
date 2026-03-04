@@ -40,14 +40,14 @@
   <meta property="og:url" content="http://localhost:1313/oferta/">
   <meta property="og:site_name" content="Blowfish">
   <meta property="og:title" content="Oferta">
-  <meta property="og:description" content="Oferta#Poniżej galeria realizacji.">
+  <meta property="og:description" content="Poniżej galeria realizacji.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Oferta">
-  <meta name="twitter:description" content="Oferta#Poniżej galeria realizacji.">
+  <meta name="twitter:description" content="Poniżej galeria realizacji.">
 
   
   
@@ -259,7 +259,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "23"
+    "wordCount": "21"
   },
   {
     "@context": "https://schema.org",
@@ -763,20 +763,55 @@
     
     <div class="min-w-0 min-h-0 max-w-prose w-full">
       <style>
-.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
-.gallery img { width: 100%; height: 180px; object-fit: cover; border-radius: 6px; }
-.gallery figcaption{font-size:0.9rem; margin-top:6px}
-</style>
+.prose.lg\:flex-row {
+  flex-direction: column;
+}
 
-<h1 class="relative group">Oferta
-    <div id="oferta" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#oferta" aria-label="Anchor">#</a>
-    </span>
-    
-</h1>
+.max-w-prose {
+  max-width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-items: center;
+}
+
+.gallery figure {
+  width: 100%;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.gallery figcaption {
+  font-size: 0.9rem;
+  margin-top: 6px;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+</style>
 <p>Poniżej galeria realizacji.</p>
 <div class="gallery">
   <figure>

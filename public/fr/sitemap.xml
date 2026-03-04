@@ -13,6 +13,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="pl"
+      href="http://localhost:1313/pl/authors/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/authors/"
     />
@@ -60,6 +65,11 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="pl"
+      href="http://localhost:1313/pl/"
     />
     <xhtml:link
       rel="alternate"
@@ -113,6 +123,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="pl"
+      href="http://localhost:1313/pl/categories/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/categories/"
     />
@@ -128,13 +143,13 @@
     />
     <xhtml:link
       rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/pt-br/categories/"
+      hreflang="es"
+      href="http://localhost:1313/es/categories/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/es/categories/"
+      hreflang="pt-br"
+      href="http://localhost:1313/pt-br/categories/"
     />
     <xhtml:link
       rel="alternate"
@@ -163,6 +178,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="pl"
+      href="http://localhost:1313/pl/series/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/series/"
     />
@@ -178,13 +198,13 @@
     />
     <xhtml:link
       rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/pt-br/series/"
+      hreflang="es"
+      href="http://localhost:1313/es/series/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/es/series/"
+      hreflang="pt-br"
+      href="http://localhost:1313/pt-br/series/"
     />
     <xhtml:link
       rel="alternate"
@@ -213,6 +233,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="pl"
+      href="http://localhost:1313/pl/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/tags/"
     />
@@ -228,13 +253,13 @@
     />
     <xhtml:link
       rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/pt-br/tags/"
+      hreflang="es"
+      href="http://localhost:1313/es/tags/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/es/tags/"
+      hreflang="pt-br"
+      href="http://localhost:1313/pt-br/tags/"
     />
     <xhtml:link
       rel="alternate"

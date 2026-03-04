@@ -4,12 +4,55 @@ date: 2026-03-01T00:00:00+01:00
 ---
 
 <style>
-.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
-.gallery img { width: 100%; height: 180px; object-fit: cover; border-radius: 6px; }
-.gallery figcaption{font-size:0.9rem; margin-top:6px}
-</style>
+.prose.lg\:flex-row {
+  flex-direction: column;
+}
 
-# Oferta
+.max-w-prose {
+  max-width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-items: center;
+}
+
+.gallery figure {
+  width: 100%;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.gallery figcaption {
+  font-size: 0.9rem;
+  margin-top: 6px;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+</style>
 
 Poniżej galeria realizacji.
 
